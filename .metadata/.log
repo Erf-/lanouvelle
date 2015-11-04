@@ -1,0 +1,272 @@
+!SESSION 2015-11-03 20:07:22.930 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.php.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.php.product
+
+!ENTRY org.eclipse.jface 2 0 2015-11-03 20:10:46.959
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-11-03 20:10:46.959
+!MESSAGE A conflict occurred for CTRL+SHIFT+F:
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.document,Format,
+		Format selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@64b1c02a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.php.ui.phpEditorScope,,,system)
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.document,Format,
+		Format selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@64b1c02a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.dltk.ui.context.views,,,system)
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.document,Format,
+		Format selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@64b1c02a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-11-03 20:10:46.959
+!MESSAGE A conflict occurred for CTRL+N:
+Binding(CTRL+N,
+	ParameterizedCommand(Command(org.eclipse.php.ui.newWizard,New,
+		Open the New item wizard,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@485ac68d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.php.ui.phpEditorScope,,,system)
+Binding(CTRL+N,
+	ParameterizedCommand(Command(org.eclipse.php.ui.newWizard,New,
+		Open the New item wizard,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@485ac68d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.dltk.ui.context.views,,,system)
+Binding(CTRL+N,
+	ParameterizedCommand(Command(org.eclipse.ui.newWizard,New,
+		Open the New item wizard,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@39ff1633,
+		[Lorg.eclipse.e4.ui.internal.workbench.Parameter;@1a0a8c04,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-11-03 20:10:46.959
+!MESSAGE A conflict occurred for F4:
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.php.ui.edit.text.php.open.type.hierarchy,Open Type Hierarchy,
+		Opens a type hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3fa17817,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.dltk.ui.context.views,,,system)
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.php.ui.edit.text.php.open.type.hierarchy,Open Type Hierarchy,
+		Opens a type hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3fa17817,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.php.ui.phpEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-11-03 20:10:46.959
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.php.ui.navigate.open.type,Open Type,
+		Opens a type in a PHP editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1d34ea4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.php.ui.phpEditorScope,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.php.ui.navigate.open.type,Open Type,
+		Opens a type in a PHP editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1d34ea4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.dltk.ui.context.views,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-11-03 20:10:46.959
+!MESSAGE A conflict occurred for CTRL+SHIFT+M:
+Binding(CTRL+SHIFT+M,
+	ParameterizedCommand(Command(org.eclipse.php.ui.navigate.open.method,Opens a method in a PHP editor,
+		Opens a method in a PHP editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@57cff1eb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.php.ui.phpEditorScope,,,system)
+Binding(CTRL+SHIFT+M,
+	ParameterizedCommand(Command(org.eclipse.php.ui.navigate.open.method,Opens a method in a PHP editor,
+		Opens a method in a PHP editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@57cff1eb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.dltk.ui.context.views,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-11-03 20:10:46.959
+!MESSAGE A conflict occurred for F3:
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.php.ui.edit.text.open.editor,Open Selection,
+		Opens an editor with the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1513a857,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.php.ui.phpEditorScope,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.php.ui.edit.text.open.editor,Open Selection,
+		Opens an editor with the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1513a857,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.dltk.ui.context.views,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.open.file.from.source,Open Selection,
+		Open an editor on the selected link,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3d90f290,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-11-03 20:10:46.959
+!MESSAGE A conflict occurred for ALT+SHIFT+V:
+Binding(ALT+SHIFT+V,
+	ParameterizedCommand(Command(org.eclipse.php.ui.edit.text.move.element,Move - Refactoring ,
+		Moves the selected element to a new location,
+		Category(org.eclipse.php.ui.category.refactoring,Refactor - PHP,PHP Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7724eb83,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.dltk.ui.context.views,,,system)
+Binding(ALT+SHIFT+V,
+	ParameterizedCommand(Command(org.eclipse.php.ui.edit.text.move.element,Move - Refactoring ,
+		Moves the selected element to a new location,
+		Category(org.eclipse.php.ui.category.refactoring,Refactor - PHP,PHP Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7724eb83,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.php.ui.phpEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-11-03 20:10:46.959
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.dltk.ui.edit.text.script.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.dltk.ui.category.refactoring,Refactor - DLTK,DLTK Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@18e22291,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.dltk.ui.context.views,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.dltk.ui.edit.text.script.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.dltk.ui.category.refactoring,Refactor - DLTK,DLTK Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@18e22291,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.php.ui.phpEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-11-03 20:10:46.959
+!MESSAGE A conflict occurred for ALT+CTRL+H:
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.php.ui.edit.text.php.open.call.hierarchy,Open Call Hierarchy,
+		Opens a call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@264b6a5a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.dltk.ui.context.views,,,system)
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.php.ui.edit.text.php.open.call.hierarchy,Open Call Hierarchy,
+		Opens a call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@264b6a5a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.php.ui.phpEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-11-03 20:10:46.959
+!MESSAGE A conflict occurred for CTRL+SHIFT+H:
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.php.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Opens a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@21334e5a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.dltk.ui.context.views,,,system)
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.php.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Opens a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@21334e5a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.php.ui.phpEditorScope,,,system)
+
+!ENTRY org.eclipse.wst.validation 4 0 2015-11-03 20:10:48.625
+!MESSAGE IWAE0027E Could not retrieve the validation configuration for resource  .
+!STACK 0
+java.lang.reflect.InvocationTargetException: IWAE0027E Could not retrieve the validation configuration for resource  .
+	at org.eclipse.wst.validation.internal.ConfigurationManager.getProjectConfiguration(ConfigurationManager.java:135)
+	at org.eclipse.wst.validation.internal.ConfigurationManager.getConfiguration(ConfigurationManager.java:251)
+	at org.eclipse.wst.validation.internal.ValManager.getValidatorsNotCached(ValManager.java:226)
+	at org.eclipse.wst.validation.internal.ValManager.access$1(ValManager.java:220)
+	at org.eclipse.wst.validation.internal.ValManager$ValidatorCache.getValidatorsCached(ValManager.java:1263)
+	at org.eclipse.wst.validation.internal.ValManager.getValidators(ValManager.java:197)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:797)
+	at org.eclipse.wst.validation.internal.DisabledValidatorManager$DisabledValidationFinder.findDisabledValidatorsFor(DisabledValidatorManager.java:109)
+	at org.eclipse.wst.validation.internal.DisabledValidatorManager.getDisabledValidatorsFor(DisabledValidatorManager.java:62)
+	at org.eclipse.wst.validation.ValidationFramework.getDisabledValidatorsFor(ValidationFramework.java:232)
+	at org.eclipse.php.internal.ui.editor.ASTProvider.isValidatorDisabled(ASTProvider.java:600)
+	at org.eclipse.php.internal.ui.editor.ASTProvider.isReconciling(ASTProvider.java:583)
+	at org.eclipse.php.internal.ui.editor.ASTProvider.getAST(ASTProvider.java:500)
+	at org.eclipse.php.ui.editor.SharedASTProvider.getAST(SharedASTProvider.java:143)
+	at org.eclipse.php.internal.ui.editor.highlighter.AbstractSemanticHighlighting.getProgram(AbstractSemanticHighlighting.java:129)
+	at org.eclipse.php.internal.ui.editor.highlighter.AbstractSemanticHighlighting.consumes(AbstractSemanticHighlighting.java:100)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingReconciler.reconcile(SemanticHighlightingReconciler.java:127)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.endProcessing(DocumentRegionProcessor.java:137)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:697)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Resource '/ ' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:147)
+	at org.eclipse.core.internal.resources.Resource.checkAccessibleAndLocal(Resource.java:221)
+	at org.eclipse.core.internal.resources.Resource.getSessionProperty(Resource.java:1274)
+	at org.eclipse.wst.validation.internal.ConfigurationManager.getProjectConfiguration(ConfigurationManager.java:126)
+	... 18 more
+Root exception:
+org.eclipse.core.internal.resources.ResourceException: Resource '/ ' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:147)
+	at org.eclipse.core.internal.resources.Resource.checkAccessibleAndLocal(Resource.java:221)
+	at org.eclipse.core.internal.resources.Resource.getSessionProperty(Resource.java:1274)
+	at org.eclipse.wst.validation.internal.ConfigurationManager.getProjectConfiguration(ConfigurationManager.java:126)
+	at org.eclipse.wst.validation.internal.ConfigurationManager.getConfiguration(ConfigurationManager.java:251)
+	at org.eclipse.wst.validation.internal.ValManager.getValidatorsNotCached(ValManager.java:226)
+	at org.eclipse.wst.validation.internal.ValManager.access$1(ValManager.java:220)
+	at org.eclipse.wst.validation.internal.ValManager$ValidatorCache.getValidatorsCached(ValManager.java:1263)
+	at org.eclipse.wst.validation.internal.ValManager.getValidators(ValManager.java:197)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:797)
+	at org.eclipse.wst.validation.internal.DisabledValidatorManager$DisabledValidationFinder.findDisabledValidatorsFor(DisabledValidatorManager.java:109)
+	at org.eclipse.wst.validation.internal.DisabledValidatorManager.getDisabledValidatorsFor(DisabledValidatorManager.java:62)
+	at org.eclipse.wst.validation.ValidationFramework.getDisabledValidatorsFor(ValidationFramework.java:232)
+	at org.eclipse.php.internal.ui.editor.ASTProvider.isValidatorDisabled(ASTProvider.java:600)
+	at org.eclipse.php.internal.ui.editor.ASTProvider.isReconciling(ASTProvider.java:583)
+	at org.eclipse.php.internal.ui.editor.ASTProvider.getAST(ASTProvider.java:500)
+	at org.eclipse.php.ui.editor.SharedASTProvider.getAST(SharedASTProvider.java:143)
+	at org.eclipse.php.internal.ui.editor.highlighter.AbstractSemanticHighlighting.getProgram(AbstractSemanticHighlighting.java:129)
+	at org.eclipse.php.internal.ui.editor.highlighter.AbstractSemanticHighlighting.consumes(AbstractSemanticHighlighting.java:100)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingReconciler.reconcile(SemanticHighlightingReconciler.java:127)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.endProcessing(DocumentRegionProcessor.java:137)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:697)
